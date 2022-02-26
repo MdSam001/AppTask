@@ -68,7 +68,7 @@ class MainActivity : AppCompatActivity() {
                     recyclerView.layoutManager = LinearLayoutManager(this, LinearLayoutManager.VERTICAL,false)
                     newsAdapter = NewsAdapter(this,tempArray)
                     recyclerView.adapter = newsAdapter
-                    Toast.makeText(this, "${tempArray.size}", Toast.LENGTH_SHORT).show()
+                    //Toast.makeText(this, "${tempArray.size}", Toast.LENGTH_SHORT).show()
 
                 }catch (e : Exception){
 
